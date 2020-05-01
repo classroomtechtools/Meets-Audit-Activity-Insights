@@ -18,6 +18,10 @@ MIT, credit [@clssrmtechtools](https://twitter.com/clssroomtechtools) Adam Morri
 
 Leaders in school in distance learning mode who want to see how their Google Meets service is being used, curious GSuite admins, data enthusiasts, AppsScripts writers of libraries, and spreadsheet junkies.
 
+## Requirements
+
+The user will need to permission to access Admin Reports on the domain.
+
 ## Quickstart
 
 Since this is an OpenSource tool for fellow GSuite admins, I see no real downside to releasing the code in the following manner: It's a spreadsheet with script contained. You're supposed to open up the Script Editor and execute it.
