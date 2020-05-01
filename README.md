@@ -28,11 +28,11 @@ Since this is an OpenSource tool for fellow GSuite admins, I see no real downsid
 
 1. Make a [copy of this spreadsheet](https://docs.google.com/spreadsheets/d/1wOrv2KxLxJwB27OL1butFn_PJPNJlG6VUXpR6bSe0kA/edit#gid=0);
 
-2. Change the number of previous you'd like to download data for. For best experience, choose a small number. A domain with a large number of users can take a while;
+2. Change the number of days you'd like to download data for. A domain with a large number of users can take a while. On a domain with 300 users with 21 days of data, it took 10 minutes to complete execution (and update values based on formulas);
 
 3. Tools —> Script Editor;
  
-4. Execute, and wait. On a domain with 300 users with 21 days of data, it took 10 minutes to complete execution (and update values based on formulas);
+4. Execute, and wait.
 
 5. Yes, you could make this an add-on, which I welcome. All of this it MIT licensed opensource, baby.
 
@@ -47,7 +47,7 @@ Thanks to [@schoraria911](https://twitter.com/schoraria911), who provided some a
 
 ### Pivot tables are wonderful, with caveats
 
-Finally, I was able to aggregate the data with pivot tables, which allowed me to derive frequency tables. While very convenient, the ready-made pivot table feature of google sheets has the following issues:
+I was able to aggregate the raw data with pivot tables, which allowed me to derive frequency tables. While very convenient, the ready-made pivot table feature of google sheets has the following issues:
 
 * When a filter is enabled, it doesn't automatically populate when new data is written
 * With the above, there is extraneous information which affects the presentation
