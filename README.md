@@ -26,7 +26,7 @@ The user will need to permission to access Admin Reports on the domain.
 
 Since this is an OpenSource tool for fellow GSuite admins, I see no real downside to releasing the code in the following manner: It's a spreadsheet with script contained. You're supposed to open up the Script Editor and execute it.
 
-1. Make a [copy of this spreadsheet](https://docs.google.com/spreadsheets/d/1wOrv2KxLxJwB27OL1butFn_PJPNJlG6VUXpR6bSe0kA/edit#gid=0);
+1. Make a [copy of this spreadsheet](https://docs.google.com/spreadsheets/d/1wOrv2KxLxJwB27OL1butFn_PJPNJlG6VUXpR6bSe0kA/copy);
 
 2. Change the number of days you'd like to download data for. A domain with a large number of users can take a while. On a domain with 300 users with 21 days of data, it took 10 minutes to complete execution (and update values based on formulas);
 
