@@ -1,14 +1,14 @@
 # Meets Audit Activity Insights
 
-A spreadsheet with Meets audit activity data, and reporting. Determine how many hours per day users are spending in Google Meets.
+Outputs leadership boards of how many hours per day users are spending in Google Meets, and how frenquently they had meets. 
 
 ![FrequencyLeaderboard](/frequencyleaderboard.png?raw=true "Frequency Leaderboard")
 
-Interacts with the `Activities.list` [endpoint](https://developers.google.com/admin-sdk/reports/v1/reference/activities/list) available on GSuite domains that lists lots of Meets activity information. It's the same endpoint used in its own reporting console, such as the Meets Quality Tool.
+It's a spreadsheet that contains all meet data over the last X days. The built-in script interacts with the `Activities.list` [endpoint](https://developers.google.com/admin-sdk/reports/v1/reference/activities/list) available on GSuite domains; it's the same endpoint used in its own reporting console, such as the Meets Quality Tool.
 
 It downloads row-by-row all of this raw information, going back `days` number of days, saves into the spreadsheet into `meet data` sheet.
 
-Additional sheets contain pivot tables that provide insights into the data, such as IP location info, duration of calls, frequency of use. Leadership boards are derived from those pivot tables.
+Additional sheets contain pivot tables that provide insights into the data, such as duration of calls, frequency of use. Leadership boards are derived from those pivot tables.
 
 ## License
 
@@ -34,7 +34,9 @@ Since this is an OpenSource tool for fellow GSuite admins, I see no real downsid
  
 4. Execute, and wait.
 
-5. Yes, you could make this an add-on, which I welcome. All of this it MIT licensed opensource, baby.
+5. Update the ranges in the pivot tables in tabs `Duration` and `Frequency` so that it captures all of the rows of data. 
+
+6. Yes, you could make this an add-on, which I welcome. All of this it MIT licensed opensource, baby.
 
 
 ## Motivation
